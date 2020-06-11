@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import Menu from './Components/MenuComponent.js';
 import { Navbar,NavbarBrand, Button } from 'reactstrap';
 import './App.css';
 
@@ -13,9 +13,7 @@ return(
        </div>
       </Navbar>
       <hr />
-      <div>
-         <Button color="primary" href = "https://www.google.com">Click!</Button>
-      </div>
+      <Menu />
     </div>
 );
 }
